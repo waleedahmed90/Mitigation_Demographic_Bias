@@ -80,7 +80,7 @@ Following are the assigned weights to the demographic constituents for their cor
 
 *"A dominant group is defined as a Gender, Racial or an Age group (or a combinationof these groups) which is dominant in numbers or amount and the subservient group is defined as a Gender, Racial or an Age group (or a combination of these groups) which is not dominant in numbers or amount."*
 
-We identify these groups in our Gender, Race, and Age-Group Category while considering the United States of America's population baseline Demographics before performing any sorts of calculations. We do this to be able to know, this later on when we perform the calculation of clusters, that if a particular groups becomes too much in majority compared to the other one. The details of that baseline is given as follows:
+We identify these groups in our Gender, Race, and Age-Group Category while considering the United States of America's population baseline Demographics before performing any sorts of calculations. We do this to be able to know this later on when we perform the calculation of clusters, that if a particular groups becomes too much in majority compared to the other one. The details of that baseline is given as follows:
 
 
 
