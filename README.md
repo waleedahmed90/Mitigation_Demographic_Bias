@@ -1,30 +1,5 @@
 # MITIGATION OF BIAS IN THE DEMOGRAPHIC COALITION FOR HASHTAG SELECTION
 
-## The data in HashtagUsageInfo files is in following format:
-There are total of 92 files which encompass the data from November, 2018 - January, 2019 
-***Timestamp#1:***
-***{hashtagName1: [user1, user2, user3, .., userN],***
-***hashtagName2: [user1, user2, user3, .., userN],***
-***.***
-***.***
-***hashtagNameM: [user1, user2, user3, .., userN],***
-***}***
-***Timestamp#2:***
-***{hashtagName1: [user1, user2, user3, .., userN],***
-***hashtagName2: [user1, user2, user3, .., userN],***
-***.***
-***.***
-***hashtagNameM: [user1, user2, user3, ..., userN],***
-***}***
-***.***
-***.***
-***Timestamp#T:*** 
-***{hashtagName1: [user1, user2, user3, .., userN],***
-***hashtagName2: [user1, user2, user3, .., userN],***
-***.***
-***.***
-***hashtagNameM: [user1, user2, user3, ..., userN],***
-**}*** 
 
 ### A proxy for trend selection
 
