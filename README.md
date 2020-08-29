@@ -63,10 +63,15 @@ Mathematically, it is given as follows:
   - The second component determines the decay. The factor of decay is lambda times E
   - n is the count for the time stamp which is under consideration and total timestamps per day are 96 with 15 minutes apart
   - E is mathematically defined as follows:
+  
 ![alt text](https://github.com/waleedahmed90/Mitigation_Demographic_Bias/blob/master/Eqs_Images/4.png?raw=true)
+
   - The maximum bound of n for one day is calculated as follows
+  
 ![alt text](https://github.com/waleedahmed90/Mitigation_Demographic_Bias/blob/master/Eqs_Images/5.png?raw=true)
-where,
+
+- where,
+
 ![alt text](https://github.com/waleedahmed90/Mitigation_Demographic_Bias/blob/master/Eqs_Images/6.png?raw=true)
  
 
