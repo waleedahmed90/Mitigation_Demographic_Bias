@@ -1,0 +1,97 @@
+#
+#
+#
+[RESULTS]
+#
+#
+#
+
+#################################################################
+[ORIGINAL BIASES IN DEMOGRAPHIC COALITION CLUSTERS]
+#################################################################
+
+<GENDER> BASE_WEIGHTS:  [0.48, 0.52]
+1) [65.454, 34.546] :: Average Bias Score:  0.972
+2) [7.302, 92.698]  :: Average Bias Score:  0.844
+3) [93.219, 6.781]  :: Average Bias Score:  12.824
+4) [40.681, 59.319] :: Average Bias Score:  0.237
+(GENDER)_AVERAGE_BIAS_ORIGINAL::::::::::::  3.719
+
+<RACE> BASE_WEIGHTS:  [0.5, 0.3, 0.2]
+1) [47.859, 39.546, 12.594] :: Average Bias Score:  0.082
+2) [94.027, 2.995, 2.978]   :: Average Bias Score:  14.742
+3) [71.914, 11.818, 16.269] :: Average Bias Score:  1.56
+4) [13.254, 3.472, 83.274]  :: Average Bias Score:  0.847
+5) [6.397, 90.761, 2.842    :: Average Bias Score:  0.932
+(RACE)_AVERAGE_BIAS_ORIGINAL::::::::::::::::::::::  3.633
+
+<AGE> BASE_WEIGHTS:  [0.4, 0.07, 0.25, 0.28]
+1) [9.701, 1.053, 54.251, 34.995]  :: Average Bias Score:  0.767
+2) [82.751, 0.107, 13.614, 3.528]  :: Average Bias Score:  0.312
+3) [21.521, 0.259, 66.299, 11.921] :: Average Bias Score:  1.52
+4) [2.238, 0.137, 9.423, 88.202]   :: Average Bias Score:  0.365
+5) [3.217, 0.1, 92.44, 4.243]      :: Average Bias Score:  11.934
+(AGE)_AVERAGE_BIAS_ORIGINAL::::::::::::::::::::::::::::::  2.98
+
+
+
+#################################################################
+[BIASES AFTER PENALTIES ONLY]
+#################################################################
+
+<GENDER> BASE_WEIGHTS:  [0.48, 0.52]
+1) [61.318, 38.682] :: Average Bias Score:  0.69
+2) [31.203, 68.797] :: Average Bias Score:  0.455
+3) [76.311, 23.689] :: Average Bias Score:  2.761
+4) [48.147, 51.853] :: Average Bias Score:  0.137
+(GENDER)_AVERAGE_BIAS_MITIGATED:::::::::::  1.0107
+
+
+<RACE> BASE_WEIGHTS:  [0.5, 0.3, 0.2]
+1) [60.25, 27.917, 11.834]  :: Average Bias Score:  0.607
+2) [78.895, 10.81, 10.295]  :: Average Bias Score:  3.288
+3) [65.713, 11.211, 23.076] :: Average Bias Score:  0.992
+4) [41.073, 6.714, 52.212]  :: Average Bias Score:  0.317
+5) [36.323, 53.326, 10.35]  :: Average Bias Score:  0.398
+(RACE)_AVERAGE_BIAS_MITIGATED:::::::::::::::::::::  1.1204
+
+
+<AGE> BASE_WEIGHTS:  [0.4, 0.07, 0.25, 0.28]
+1) [12.841, 0.85, 53.256, 33.052]  :: Average Bias Score:  0.76
+2) [54.712, 0.176, 39.306, 5.806]  :: Average Bias Score:  0.287
+3) [29.377, 0.174, 59.744, 10.705] :: Average Bias Score:  1.092
+4) [5.65, 0.564, 37.03, 56.755]    :: Average Bias Score:  0.248
+5) [13.517, 0.245, 70.384, 15.854] :: Average Bias Score:  2.185
+(AGE)_AVERAGE_BIAS_MITIGATED:::::::::::::::::::::::::::::  0.9144
+
+
+#################################################################
+[BIASES AFTER COMPENSATION]
+#################################################################
+
+<GENDER> BASE_WEIGHTS:  [0.48, 0.52]
+1) [59.284, 40.716] :: Average Bias Score:  0.56
+2) [27.911, 72.089] :: Average Bias Score:  0.523
+3) [74.96, 25.04]   :: Average Bias Score:  2.479
+4) [45.426, 54.574] :: Average Bias Score:  0.141
+(GENDER)_AVERAGE_BIAS_MITIGATED:::::::::::  0.92575
+
+
+
+<RACE> BASE_WEIGHTS:  [0.5, 0.3, 0.2]
+1) [60.43, 26.719, 12.851]  :: Average Bias Score:  0.618
+2) [77.595, 10.817, 11.588] :: Average Bias Score:  2.986
+3) [57.211, 8.403, 34.386]  :: Average Bias Score:  0.494
+4) [28.144, 5.448, 66.408]  :: Average Bias Score:  0.575
+5) [33.614, 56.195, 10.191] :: Average Bias Score:  0.457
+(RACE)_AVERAGE_BIAS_MITIGATED:::::::::::::::::::::  1.026
+
+
+<AGE> BASE_WEIGHTS:  [0.4, 0.07, 0.25, 0.28]
+1) [12.379, 0.81, 50.798, 36.012]  :: Average Bias Score:  0.647
+2) [64.01, 0.268, 30.172, 5.55]    :: Average Bias Score:  0.183
+3) [34.701, 0.198, 55.217, 9.884]  :: Average Bias Score:  0.838
+4) [4.902, 0.475, 30.626, 63.996]  :: Average Bias Score:  0.17
+5) [14.552, 0.267, 69.268, 15.913] :: Average Bias Score:  2.043
+(AGE)_AVERAGE_BIAS_MITIGATED:::::::::::::::::::::::::::::  0.7762
+

@@ -1,0 +1,150 @@
+
+
+BIASES AFTER PENALTIES ONLY
+
+
+ <GENDER> BASE_WEIGHTS:  [0.48, 0.52]
+Promoter Cluster Demographics:::::::::::::  [65.454, 34.546] -BIAS=  0.972
+After Bias MitigationCluster Demographics:  [60.899, 39.111] -BIAS=  0.634
+
+
+Promoter Cluster Demographics:::::::::::::  [7.302, 92.698] -BIAS=  0.844
+After Bias MitigationCluster Demographics:  [30.945, 69.055] -BIAS=  0.475
+
+
+Promoter Cluster Demographics:::::::::::::  [93.219, 6.781] -BIAS=  12.824
+After Bias MitigationCluster Demographics:  [76.152, 23.848] -BIAS=  2.27
+
+
+Promoter Cluster Demographics:::::::::::::  [40.681, 59.319] -BIAS=  0.237
+After Bias MitigationCluster Demographics:  [47.711, 52.289] -BIAS=  0.011
+
+
+(GENDER)_AVERAGE_BIAS_ORIGINAL::::::  3.719
+(GENDER)_AVERAGE_BIAS_MITIGATED:::::  0.848
+
+
+ <RACE> BASE_WEIGHTS:  [0.5, 0.3, 0.2]
+Promoter Cluster Demographics:::::::::::::  [47.859, 39.546, 12.594] -BIAS=  0.082
+After Bias MitigationCluster Demographics:  [50.55, 33.538, 15.912] -BIAS=  0.022
+
+
+Promoter Cluster Demographics:::::::::::::  [94.027, 2.995, 2.978] -BIAS=  14.742
+After Bias MitigationCluster Demographics:  [79.274, 9.657, 11.069] -BIAS=  2.825
+
+
+Promoter Cluster Demographics:::::::::::::  [71.914, 11.818, 16.269] -BIAS=  1.56
+After Bias MitigationCluster Demographics:  [66.779, 17.079, 16.142] -BIAS=  1.01
+
+
+Promoter Cluster Demographics:::::::::::::  [13.254, 3.472, 83.274] -BIAS=  0.847
+After Bias MitigationCluster Demographics:  [44.251, 7.836, 47.913] -BIAS=  0.206
+
+
+Promoter Cluster Demographics:::::::::::::  [6.397, 90.761, 2.842] -BIAS=  0.932
+After Bias MitigationCluster Demographics:  [36.708, 56.137, 7.155] -BIAS=  0.42
+
+
+(RACE)_AVERAGE_BIAS_ORIGINAL::::::  3.633
+(RACE)_AVERAGE_BIAS_MITIGATED:::::  0.897
+
+
+ <AGE> BASE_WEIGHTS:  [0.4, 0.07, 0.25, 0.28]
+Promoter Cluster Demographics:::::::::::::  [9.701, 1.053, 54.251, 34.995] -BIAS=  0.767
+After Bias MitigationCluster Demographics:  [12.841, 0.85, 53.256, 33.052] -BIAS=  0.708
+
+
+Promoter Cluster Demographics:::::::::::::  [82.751, 0.107, 13.614, 3.528] -BIAS=  0.312
+After Bias MitigationCluster Demographics:  [54.712, 0.176, 39.306, 5.806] -BIAS=  0.182
+
+
+Promoter Cluster Demographics:::::::::::::  [21.521, 0.259, 66.299, 11.921] -BIAS=  1.52
+After Bias MitigationCluster Demographics:  [29.377, 0.174, 59.744, 10.705] -BIAS=  1.024
+
+
+Promoter Cluster Demographics:::::::::::::  [2.238, 0.137, 9.423, 88.202] -BIAS=  0.365
+After Bias MitigationCluster Demographics:  [5.65, 0.564, 37.03, 56.755] -BIAS=  0.132
+
+
+Promoter Cluster Demographics:::::::::::::  [3.217, 0.1, 92.44, 4.243] -BIAS=  11.934
+After Bias MitigationCluster Demographics:  [13.517, 0.245, 70.384, 15.854] -BIAS=  1.934
+
+
+(AGE)_AVERAGE_BIAS_ORIGINAL::::::  2.98
+(AGE)_AVERAGE_BIAS_MITIGATED:::::  0.796
+BIASES AFTER COMPENSATION
+
+
+ <GENDER> BASE_WEIGHTS:  [0.48, 0.52]
+Promoter Cluster Demographics:::::::::::::  [65.454, 34.546] -BIAS=  0.972
+After Bias MitigationCluster Demographics:  [59.284, 40.716] -BIAS=  0.533
+
+
+Promoter Cluster Demographics:::::::::::::  [7.302, 92.698] -BIAS=  0.844
+After Bias MitigationCluster Demographics:  [27.911, 72.089] -BIAS=  0.536
+
+
+Promoter Cluster Demographics:::::::::::::  [93.219, 6.781] -BIAS=  12.824
+After Bias MitigationCluster Demographics:  [74.96, 25.04] -BIAS=  2.071
+
+
+Promoter Cluster Demographics:::::::::::::  [40.681, 59.319] -BIAS=  0.237
+After Bias MitigationCluster Demographics:  [45.426, 54.574] -BIAS=  0.091
+
+
+(GENDER)_AVERAGE_BIAS_ORIGINAL::::::  3.719
+(GENDER)_AVERAGE_BIAS_MITIGATED:::::  0.808
+
+
+ <RACE> BASE_WEIGHTS:  [0.5, 0.3, 0.2]
+Promoter Cluster Demographics:::::::::::::  [47.859, 39.546, 12.594] -BIAS=  0.082
+After Bias MitigationCluster Demographics:  [60.43, 26.719, 12.851] -BIAS=  0.527
+
+
+Promoter Cluster Demographics:::::::::::::  [94.027, 2.995, 2.978] -BIAS=  14.742
+After Bias MitigationCluster Demographics:  [77.595, 10.817, 11.588] -BIAS=  2.463
+
+
+Promoter Cluster Demographics:::::::::::::  [71.914, 11.818, 16.269] -BIAS=  1.56
+After Bias MitigationCluster Demographics:  [57.211, 8.403, 34.386] -BIAS=  0.337
+
+
+Promoter Cluster Demographics:::::::::::::  [13.254, 3.472, 83.274] -BIAS=  0.847
+After Bias MitigationCluster Demographics:  [28.144, 5.448, 66.408] -BIAS=  0.608
+
+
+Promoter Cluster Demographics:::::::::::::  [6.397, 90.761, 2.842] -BIAS=  0.932
+After Bias MitigationCluster Demographics:  [33.614, 56.195, 10.191] -BIAS=  0.494
+
+
+(RACE)_AVERAGE_BIAS_ORIGINAL::::::  3.633
+(RACE)_AVERAGE_BIAS_MITIGATED:::::  0.886
+
+
+ <AGE> BASE_WEIGHTS:  [0.4, 0.07, 0.25, 0.28]
+Promoter Cluster Demographics:::::::::::::  [9.701, 1.053, 54.251, 34.995] -BIAS=  0.767
+After Bias MitigationCluster Demographics:  [12.379, 0.81, 50.798, 36.012] -BIAS=  0.596
+
+
+Promoter Cluster Demographics:::::::::::::  [82.751, 0.107, 13.614, 3.528] -BIAS=  0.312
+After Bias MitigationCluster Demographics:  [64.01, 0.268, 30.172, 5.55] -BIAS=  0.033
+
+
+Promoter Cluster Demographics:::::::::::::  [21.521, 0.259, 66.299, 11.921] -BIAS=  1.52
+After Bias MitigationCluster Demographics:  [34.701, 0.198, 55.217, 9.884] -BIAS=  0.772
+
+
+Promoter Cluster Demographics:::::::::::::  [2.238, 0.137, 9.423, 88.202] -BIAS=  0.365
+After Bias MitigationCluster Demographics:  [4.902, 0.475, 30.626, 63.996] -BIAS=  0.019
+
+
+Promoter Cluster Demographics:::::::::::::  [3.217, 0.1, 92.44, 4.243] -BIAS=  11.934
+After Bias MitigationCluster Demographics:  [14.552, 0.267, 69.268, 15.913] -BIAS=  1.812
+
+
+(AGE)_AVERAGE_BIAS_ORIGINAL::::::  2.98
+(AGE)_AVERAGE_BIAS_MITIGATED:::::  0.646
+
+
+Elapsed Time
+--- 0.00039696693420410156 seconds ---
