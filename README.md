@@ -132,7 +132,7 @@ For calculating the compensation for subservient groups, we need to add some amo
 
 
 
-*"The goal in the end is to have trending topics which have a more balanced demographic coalitions behind them rather than being too biased towards a particular demographic group"*
+*"The goal in the end is to have trending topics which have a more balanced demographic coalition behind them rather than being too biased towards a particular demographic group"*
 
 
 ### Bias Function
