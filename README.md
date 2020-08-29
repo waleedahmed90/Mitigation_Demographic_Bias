@@ -90,8 +90,7 @@ We identify these groups in our Gender, Race, and Age-Group Category while consi
 
 
 ### Mitigation Approach
-The approach is to add penalties while surge score is calculated. If the demographic is biased towards a particular Demographic group or a group of groups, its surge will be reduced.
-If a hashtag has a higher surge while having a 
+The approach is to add penalties while surge score is calculated. If the demographic is biased towards a particular Demographic group or a group of groups, its surge will be reduced. 
 
 ### Contemporary Dominant and Subservient Groups
 
