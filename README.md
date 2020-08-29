@@ -32,7 +32,11 @@ To determine the popularity/trendworthiness of a hashtag h at a point(timestamp)
 
 - **Eq(1)**
 
-[equation1](http://www.sciweavers.org/upload/Tex2Img_1598621917/render.png)
+
+
+![equation](http://www.sciweavers.org/upload/Tex2Img_1598621917/render.png)
+
+
 
 
 #### Surge Ratio
