@@ -44,8 +44,7 @@ Mathematically, it is defined by parts as follows:
 
 - **Eq(2)**
 
-![equation](http://www.sciweavers.org/upload/Tex2Img_1598622921/render.png)
-
+![alt text](https://github.com/waleedahmed90/Mitigation_Demographic_Bias/blob/master/Eqs_Images/2.png?raw=true)
 
 #### Impact
 
@@ -57,18 +56,18 @@ Mathematically, it is given as follows:
 
 - **Eq(3)**
 
-![equation](http://www.sciweavers.org/upload/Tex2Img_1598624614/render.png)
+![alt text](https://github.com/waleedahmed90/Mitigation_Demographic_Bias/blob/master/Eqs_Images/3.png?raw=true)
 
 
   - The first component in the quation above is the average tweets per time stamp until tn
   - The second component determines the decay. The factor of decay is lambda times E
   - n is the count for the time stamp which is under consideration and total timestamps per day are 96 with 15 minutes apart
   - E is mathematically defined as follows:
-  ![equation](http://www.sciweavers.org/upload/Tex2Img_1598625002/render.png)
+![alt text](https://github.com/waleedahmed90/Mitigation_Demographic_Bias/blob/master/Eqs_Images/4.png?raw=true)
   - The maximum bound of n for one day is calculated as follows
-  ![equation](http://www.sciweavers.org/upload/Tex2Img_1598635008/render.png)
+![alt text](https://github.com/waleedahmed90/Mitigation_Demographic_Bias/blob/master/Eqs_Images/5.png?raw=true)
 where,
-  ![equation](http://www.sciweavers.org/upload/Tex2Img_1598635170/render.png)
+![alt text](https://github.com/waleedahmed90/Mitigation_Demographic_Bias/blob/master/Eqs_Images/6.png?raw=true)
  
 
 ## Mitigation Strategy
@@ -84,17 +83,17 @@ Following are the assigned weights to the demographic constituents for their cor
 - **[GENDER BASE WEIGHTS]**
 -- **[0.48, 0.52] = [Male, Female]**
 
- ![equation](http://www.sciweavers.org/upload/Tex2Img_1598636531/render.png) 
+![alt text](https://github.com/waleedahmed90/Mitigation_Demographic_Bias/blob/master/Eqs_Images/7.png?raw=true) 
  
 - **[RACE BASE WEIGHTS]**
 -- **[0.5, 0.3, 0.2] = [White, Black, Asian]**
 
-![equation](http://www.sciweavers.org/upload/Tex2Img_1598636618/render.png)
+![alt text](https://github.com/waleedahmed90/Mitigation_Demographic_Bias/blob/master/Eqs_Images/8.png?raw=true)
 
 - **[AGE_GROUP BASE WEIGHTS]**
 -- **[0.40, 0.07, 0.25, 0.28] = [Adolescent, Old, Young, Mid-Aged] = ['-20', '65+', '20-40', '40-65']**
 
-![equation](http://www.sciweavers.org/upload/Tex2Img_1598636785/render.png)
+![alt text](https://github.com/waleedahmed90/Mitigation_Demographic_Bias/blob/master/Eqs_Images/9.png?raw=true)
 
 
 ### Identification of Dominant and Subservient Groups
@@ -128,11 +127,11 @@ The concept behind adding penalties is to finally obtain the trending topics who
 
 If a demographic coalition has two groups [A, B] with the base weights [0.5, 0.5], with surge = 100 and contemporary coalition [0.7, 0.3]. Contribution of A to the surge is 70 and that of B is 30. Here A is a contemporary dominant group and we calculate the newSurge under base weights while considering the contribution of the contemporay subservient group to be 30.
 
-![equation](http://www.sciweavers.org/upload/Tex2Img_1598679851/render.png)
+![alt text](https://github.com/waleedahmed90/Mitigation_Demographic_Bias/blob/master/Eqs_Images/10.png?raw=true)
 
-![equation](http://www.sciweavers.org/upload/Tex2Img_1598679960/render.png)
+![alt text](https://github.com/waleedahmed90/Mitigation_Demographic_Bias/blob/master/Eqs_Images/11.png?raw=true)
 
-![equation](http://www.sciweavers.org/upload/Tex2Img_1598680042/render.png)
+![alt text](https://github.com/waleedahmed90/Mitigation_Demographic_Bias/blob/master/Eqs_Images/12.png?raw=true)
 
 The group A had an edge of 40 in demographic coalition which will reduce the over all surge from 100 to 60.
 
@@ -144,13 +143,13 @@ We continue under the assumption that the pre-conceived dominant groups will not
 
 For calculating the compensation for subservient groups, we need to add some amount to the surge score if they are contemporarily dominant. For that we make use of the following scheme: 
 
-![equation](http://www.sciweavers.org/upload/Tex2Img_1598679960/render.png)
+![alt text](https://github.com/waleedahmed90/Mitigation_Demographic_Bias/blob/master/Eqs_Images/13.png?raw=true)
 
-![equation](http://www.sciweavers.org/upload/Tex2Img_1598681238/render.png)
+![alt text](https://github.com/waleedahmed90/Mitigation_Demographic_Bias/blob/master/Eqs_Images/14.png?raw=true)
 
-![equation](http://www.sciweavers.org/upload/Tex2Img_1598681282/render.png)
+![alt text](https://github.com/waleedahmed90/Mitigation_Demographic_Bias/blob/master/Eqs_Images/15.png?raw=true)
 
-![equation](http://www.sciweavers.org/upload/Tex2Img_1598681328/render.png)
+![alt text](https://github.com/waleedahmed90/Mitigation_Demographic_Bias/blob/master/Eqs_Images/16.png?raw=true)
 
 
 
@@ -161,14 +160,14 @@ For calculating the compensation for subservient groups, we need to add some amo
 
 The bias function determines the distance between the weightRatio in base weights and the weightRatio in demographic coalition: The average bias is given by the following formula,
 
-![equation](http://www.sciweavers.org/upload/Tex2Img_1598682965/render.png)
+![alt text](https://github.com/waleedahmed90/Mitigation_Demographic_Bias/blob/master/Eqs_Images/17.png?raw=true)
 
 where,
 - S is the set of selected trends/hashtags
 
-- ![equation](http://www.sciweavers.org/upload/Tex2Img_1598683051/render.png)
+![alt text](https://github.com/waleedahmed90/Mitigation_Demographic_Bias/blob/master/Eqs_Images/18.png?raw=true)
 
-- ![equation](http://www.sciweavers.org/upload/Tex2Img_1598683119/render.png) 
+![alt text](https://github.com/waleedahmed90/Mitigation_Demographic_Bias/blob/master/Eqs_Images/19.png?raw=true)
 
 ## Results
 The results are given in RESULTS.txt file.
